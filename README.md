@@ -94,6 +94,23 @@ En ligne de commande on peut afficher toutes les routes disponibles dans notre a
 <a href="https://openclassrooms.com/courses/continuez-avec-ruby-on-rails/simplifiez-la-configuration-de-vos-routes">OPC</a>
 
 
+### Les bases de données  
+<hr>
 
+<p>Pour stocker les données dans ton projet, tu dois utiliser une base de données; ça peut être MySQL, PostgreSQL, MongoDB, etc. Il est vrai que PHP est réputé pour fonctionner avec MySQL mais ce n'est pas le seul!</p>
+
+<p>Ruby On Rails utilise un ORM, c'est en gros un système qui transforme les tables de ta base de donnée en version orienté objet... pour faire simple, tu apprends une nouvelle façon de manipuler ta base de donnée. </p>
+
+<p>Pour Rails, c'est Active Record L'intérêt, ce n'est pas de te compliquer la vie à apprendre un nouveau langage, que du contraire. En utilisant Active Record, Rails va traduire ton code pour que les requêtes se fassent sur ta base de donnée. Peu importe la syntaxe de ta base de donnée, le code sera le même, du code Ruby. C'est très pratique si tu veux changer de système de DB pendant ton projet.</p>
+
+<p>Lorsque qu'un projet est créé , Rails créé pour nous un fichier de configuration de la base de données, qui se situe dans config/database.yml. </p>
+
+SQLite version 3.x
+gem install sqlite3-ruby (not necessary on OS X Leopard)
+development:
+adapter: sqlite3
+database: db/development.sqlite3
+pool: 5
+timeout: 5000
 
 [logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/200px-Ruby_On_Rails_Logo.svg.png "Ruby On Rails"
