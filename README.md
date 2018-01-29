@@ -152,9 +152,13 @@ Nous allons maintenant découvrir le fonctionnement du **CRUD**. Ce terme permet
 ### Les relations entre les models des BDD
 <hr>
 
-Le modèle le plus courant, appelé modèle relationnel, trie les données dans des tables, que l'on appelle aussi des relations, dont chacune se compose de colonnes et de lignes. Chaque colonne contient un attribut de l'entité en question, comme le prix, le code postal ou la date de naissance. L'ensemble des attributs d'une relation est appelé domaine. La clé primaire est constituée par un attribut spécifique ou une combinaison d'attributs. On peut y faire référence dans d'autres tables : elle est alors appelée clé étrangère.
-Chaque ligne, également appelée tuple, comprend des données sur une instance spécifique de l'entité en question, comme un employé en particulier.
-Le modèle tient également compte des types de relations entre ces tables, notamment les relations un-à-un, un-à-plusieurs et plusieurs-à-plusieurs.
+Le modèle le plus courant est le modèle **relationnel**. Il trie les données dans des **tables**, que l'on appelle aussi des **relations**, dont chacune se compose de **colonnes et de lignes**. Chaque colonne contient un **attribut** de l'entité en question, comme le prix, le code postal ou la date de naissance. L'ensemble des attributs d'une relation est appelé **domaine**.   
+
+La **clé primaire** est constituée par un attribut spécifique ou une combinaison d'attributs. On peut y faire référence dans d'autres tables : elle est alors appelée **clé étrangère**.
+
+Chaque **ligne** comprend des données sur une **instance** spécifique de l'entité en question, comme un employé en particulier.
+
+Le modèle tient également compte des types de relations entre ces tables, notamment les relations **un-à-un** **1-1**, **un-à-plusieurs** **1-n** et **plusieurs-à-plusieurs** **n-n**.
 
 <p align="center">
     <img src="https://i.imgur.com/C0LaM1h.jpg">
