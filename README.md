@@ -14,7 +14,7 @@
 
 Ruby On Rails, c'est un **framework** écrit en Ruby pour faire des sites/app web. 
 
-3 grand principes : 
+3 grands principes : 
 
 - Le DRY (Don't Repeat Yourself) : 
 Rails encourage à ne pas écrire plusieurs fois le même code. Rendre réutilisable le code de vos applications est une bonne chose !
@@ -119,6 +119,7 @@ Pour Rails, c'est **Active Record** .En utilisant Active Record, Rails va **tr
 
 ### Le concept de migration
 <hr>
+
 Les migrations dans Rails nous permettent de **faire évoluer** le schema de notre base de donnée facilement, sans faire de SQL. On écrit une migration et celle-ci update notre bdd.
 
 Une migration est donc une **sous-classe** de la classe ActiveRecord::Migration. A ce titre, elle définit **deux méthodes** : une méthode « up », qui permet d'ajouter une modification à la base de données, et une méthode« down », qui permet de retirer cette modification de la base de données. 
