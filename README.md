@@ -7,12 +7,15 @@
 ###### 5. GET / POST
 ###### 6. Le concept de migration
 ###### 7. Les relations entre les models des BDD
+###### 8. Les fonctions CRUD 
 
 ### Ruby On Rails , c'est quoi ? 
 <hr>
 
-Ruby On Rails, c'est un framework écrit en Ruby pour faire des sites/app web. 
+Ruby On Rails, c'est un **framework** écrit en Ruby pour faire des sites/app web. 
+
 3 grand principes : 
+
 - Le DRY (Don't Repeat Yourself) : 
 Rails encourage à ne pas écrire plusieurs fois le même code. Rendre réutilisable le code de vos applications est une bonne chose !
 - Convention over configuration: 
@@ -43,12 +46,12 @@ Vous pouvez aussi le faire de façon inconsciente, c’est-à-dire en cliquant s
 <p> Plutot abstrait à définir concretement, le MVC est un principe d’organisation de code basé sur la répartition suivante : <p>
     
 **La vue** cette partie du code gère l'affichage.     
-La vue, c’est de la présentation. C’est comment on veut que la donnée soit présentée à l’utilisateur. Ça peut être le code qui pond du HTML et CSS, ou fait configurer de jolis boutons dans une UI par exemple.    
+La vue, c’est de la **présentation**. C’est comment on veut que la donnée soit présentée à l’utilisateur. Ça peut être le code qui pond du **HTML et CSS**, ou fait configurer de jolis boutons dans une UI par exemple.    
 
-**Le modèle** cette partie du code gère la manipulation des données.  
+**Le modèle** cette partie du code gère la **manipulation des données**.  
 Le modèle manipule la donnée. Dans un site Web, le modèle est souvent le code qui permet de faire de requêtes à la base de données.   
 
-**Le contrôleur** en gros , c'est tout le reste.     
+**Le contrôleur** en gros , c'est tout le **reste**.     
 Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L’espèce de truc machin qu’on va mettre en place pour faire marcher le programme, c’est le contrôleur.  
 <p>
 
@@ -56,7 +59,7 @@ Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L�
 <img src= http://csharpcorner.mindcrackerinc.netdna-cdn.com/article/generate-a-controller-and-view-in-ruby-on-rails/Images/image001.jpg> 
 </p>
 
-Parcours utilisateur : 
+**Parcours utilisateur :**
 
 1. L’utilisateur envoie une requête HTTP (via le navigateur) vers le server Rails
 2. Le rooter la transmet au Controller via la méthode indexe
@@ -135,6 +138,15 @@ Une migration est donc une sous-classe de la classe ActiveRecord::Migration. A c
       
 *Cette migration ajoute une table « contacts », possédant deux colonnes « name » et « email » de type texte. La méthode « timestamps » quant à elle, ajoute des colonnes d'informations sur les dates de mises à jour des enregistrements. Nous détaillerons tout cela un peu plus tard.*
 
+### Les fonctions du CRUD
+<hr>
+
+Nous allons maintenant découvrir le fonctionnement du **CRUD**. Ce terme permet de désigner les **actions de bases** pour une ressource prédéfinie :
+
+- **C**reate, permet de créer un nouvel enregistrement, POST: /{resources}
+- **R**ead, permet d'afficher un ou plusieurs enregistrements, GET: /{resources} et GET: /{resources}/:id
+- **U**pdate, permet de mettre à jour un enregistrement, PUT: /{resources}/:id
+- **D**estroy, permet de supprimer un enregistrement, DELETE: /{resources}/:id
 
 
 
