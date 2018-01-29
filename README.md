@@ -1,6 +1,15 @@
 # Découvrez Ruby on Rails ![alt text][logo]
 
+1. La différence entre un site statique et un site dynamique
+2. Le MVC
+3. Les routes
+4. Les Bases de Données
+5. GET / POST
+6. Le concept de migration
+7. Les relations entre les models des BDD
+
 #### Ruby On Rails , c'est quoi ? 
+
 Ruby On Rails, c'est un framework écrit en Ruby pour faire des sites/app web. 
 3 grand principes : 
 - Le DRY (Don't Repeat Yourself) : 
@@ -21,10 +30,9 @@ Vous allez les lui envoyer soit de façon consciente, par exemple en remplissant
 Ex :  un formulaire de demande de devis, vous allez donner la quantité de produits désirée, le type de produit désiré et puis le serveur va recevoir ces paramètres et va traiter la demande.
 Vous pouvez aussi le faire de façon inconsciente, c’est-à-dire en cliquant sur un lien. Ce lien a des paramètres qui se mettent dans l’url , le script a été fait pour comprendre ces paramètres,  et en fonction de ces paramètres il va créer un fichier HTML.
 
-</p>
-</div>
+
 <p align="center">
-    <img src=" https://www.pluralsight.com/content/pluralsight/en/blog/creative-professional/sta/static-dynamic-websites-theres-difference/_jcr_content/main/hero_blog_block/image-res.img.jpg/1446605940972.jpg">
+    <img src="https://www.pluralsight.com/content/pluralsight/en/blog/creative-professional/sta/static-dynamic-websites-theres-difference/_jcr_content/main/hero_blog_block/image-res.img.jpg/1446605940972.jpg" target="_blank">
 </p>
 
 
@@ -38,7 +46,6 @@ La vue, c’est de la présentation. C’est comment on veut que la donnée soit
 Le modèle manipule la donnée. Dans un site Web, le modèle est souvent le code qui permet de faire de requêtes à la base de données. 
 **Le contrôleur** en gros , c'est tout le reste.   
 Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L’espèce de truc machin qu’on va mettre en place pour faire marcher le programme, c’est le contrôleur.  
-<a href="https://www.supinfo.com/articles/single/1625-mvc-presentation-patron-conception" target="_blank">Source</a>
 <p>
 
 <p align="center">
@@ -65,16 +72,27 @@ Dans les contrôleurs, il existe sept routes très fréquemment utilisées :
 On peu les ajouter manuellement dans le fichier config.rb ou  bien comme ceci : `resources :articles`
 En ligne de commande on peut afficher toutes les routes disponibles dans notre application comme ceci:
 `rails routes`
+
 `GET  /articles(.:format) articles#index`
+
 `POST  /articles(.:format) articles#create`
+
 `GET  /articles/new(.:format) articles#new`
+
 `GET  /articles/:id/edit(.:format) articles#edit`
+
 `GET  /articles/:id(.:format) articles#show`
+
 `PATCH  /articles/:id(.:format) articles#update`
+
 `PUT  /articles/:id(.:format) articles#update`
+
 `DELETE /articles/:id(.:format) articles#destroy`
+
 <a href="http://guides.rubyonrails.org/routing.html">Routing avec Rails DOC</a>
 <a href="https://openclassrooms.com/courses/continuez-avec-ruby-on-rails/simplifiez-la-configuration-de-vos-routes">OPC</a>
+
+
 
 
 [logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/200px-Ruby_On_Rails_Logo.svg.png "Ruby On Rails"
