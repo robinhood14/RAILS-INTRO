@@ -8,18 +8,18 @@
 6. Le concept de migration
 7. Les relations entre les models des BDD
 <hr>
-## Ruby On Rails , c'est quoi ? 
+### Ruby On Rails , c'est quoi ? 
 Ruby On Rails, c'est un framework écrit en Ruby pour faire des sites/app web. 
-### 3 grand principes : 
-###### Le DRY (Don't Repeat Yourself) : 
+3 grand principes : 
+Le DRY (Don't Repeat Yourself) : 
 Rails encourage à ne pas écrire plusieurs fois le même code. Rendre réutilisable le code de vos applications est une bonne chose !
-###### Convention over configuration: 
+Convention over configuration: 
 Rails se base uniquement sur des conventions, non sur de la configuration (à l'inverse d'autres langages comme Java par exemple). Si vous respectez ces principes de convention, vous rendrez votre code maintenable et vous gagnerez en productivité.
-###### REST : 
+REST : 
 c'est le meilleur design pattern pour le développement d'applications web. Il vous permet d'organiser vos applications autour de verbes HTTP standards.
 
 <hr>
-## Site statique ou site dynamique ?
+### Site statique ou site dynamique ?
 <p> 
 Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site statique.
 Dans un site dynamique, le processus est différent, le fichier HTML n’existe pas encore. Il va être généré en fonction de paramètres que vous allez lui envoyer.
@@ -30,16 +30,16 @@ Vous pouvez aussi le faire de façon inconsciente, c’est-à-dire en cliquant s
 
 
 <hr>
-## MVC 
+### MVC 
 
 <p> Plutot abstrait à définir concretement, le MVC est un principe d’organisation de code basé sur la répartition suivante : </p>
 <p> align="center"> Vue  - modele  - controleur </p>
 
-###### Vue : cette partie du code gère l'affichage. 
+- Vue : cette partie du code gère l'affichage. 
 La vue, c’est de la présentation. C’est comment on veut que la donnée soit présentée à l’utilisateur. Ça peut être le code qui pond du HTML et CSS, ou fait configurer de jolis boutons dans une UI par exemple.
-###### Modèle : cette partie du code gère la manipulation des données.
+- Modèle : cette partie du code gère la manipulation des données.
 Le modèle manipule la donnée. Dans un site Web, le modèle est souvent le code qui permet de faire de requêtes à la base de données. 
-###### Controleur : en gros , c'est tout le reste. 
+- Controleur : en gros , c'est tout le reste. 
 Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L’espèce de truc machin qu’on va mettre en place pour faire marcher le programme, c’est le contrôleur.
 <div> 
 </p>
