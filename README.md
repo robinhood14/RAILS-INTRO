@@ -8,7 +8,8 @@
 6. Le concept de migration
 7. Les relations entre les models des BDD
 
-#### Ruby On Rails , c'est quoi ? 
+### Ruby On Rails , c'est quoi ? 
+<hr>
 
 Ruby On Rails, c'est un framework écrit en Ruby pour faire des sites/app web. 
 3 grand principes : 
@@ -21,7 +22,7 @@ c'est le meilleur design pattern pour le développement d'applications web. Il v
 
 
 ### Site statique ou site dynamique ?
-
+<hr>
 Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site statique.
 <div> 
 <p>
@@ -37,14 +38,14 @@ Vous pouvez aussi le faire de façon inconsciente, c’est-à-dire en cliquant s
 
 
 ### Le MVC
-
+<hr>
 <p> Plutot abstrait à définir concretement, le MVC est un principe d’organisation de code basé sur la répartition suivante : <p>
     
-**La vue** cette partie du code gère l'affichage.  
-La vue, c’est de la présentation. C’est comment on veut que la donnée soit présentée à l’utilisateur. Ça peut être le code qui pond du HTML et CSS, ou fait configurer de jolis boutons dans une UI par exemple.
+**La vue** cette partie du code gère l'affichage.     
+La vue, c’est de la présentation. C’est comment on veut que la donnée soit présentée à l’utilisateur. Ça peut être le code qui pond du HTML et CSS, ou fait configurer de jolis boutons dans une UI par exemple.    
 **Le modèle** cette partie du code gère la manipulation des données.  
-Le modèle manipule la donnée. Dans un site Web, le modèle est souvent le code qui permet de faire de requêtes à la base de données. 
-**Le contrôleur** en gros , c'est tout le reste.   
+Le modèle manipule la donnée. Dans un site Web, le modèle est souvent le code qui permet de faire de requêtes à la base de données.   
+**Le contrôleur** en gros , c'est tout le reste.     
 Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L’espèce de truc machin qu’on va mettre en place pour faire marcher le programme, c’est le contrôleur.  
 <p>
 
