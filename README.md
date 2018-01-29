@@ -69,14 +69,13 @@ Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L�
 Les routes permettent d’interpréter les URL et d’orienter vers les bonnes actions des controleurs. La configuration se trouve dans le fichier config/routes.rb .
 
 La configuration par défaut se fait par la ligne :
-resources :photos
+
+    1-resources :photos
 
 Il est possible d’en déclarer plusieurs de la façon suivante :
-resources :photos, :books, :videos
 
+    1-resources :photos, :books, :videos
 
-<a href="http://guides.rubyonrails.org/routing.html">Routing avec Rails DOC</a>
-<a href="https://openclassrooms.com/courses/continuez-avec-ruby-on-rails/simplifiez-la-configuration-de-vos-routes">OPC</a>
 
 
 ### Les bases de données  
