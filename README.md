@@ -9,17 +9,25 @@
 7. Les relations entre les models des BDD
 <hr>
 ## Ruby On Rails , c'est quoi ? 
-
 Ruby On Rails, c'est un framework écrit en Ruby pour faire des sites/app web. 
-
 ### 3 grand principes : 
-
 ###### Le DRY (Don't Repeat Yourself) : 
 Rails encourage à ne pas écrire plusieurs fois le même code. Rendre réutilisable le code de vos applications est une bonne chose !
 ###### Convention over configuration: 
 Rails se base uniquement sur des conventions, non sur de la configuration (à l'inverse d'autres langages comme Java par exemple). Si vous respectez ces principes de convention, vous rendrez votre code maintenable et vous gagnerez en productivité.
 ###### REST : 
 c'est le meilleur design pattern pour le développement d'applications web. Il vous permet d'organiser vos applications autour de verbes HTTP standards.
+
+<hr>
+## Site statique ou site dynamique ?
+<p> 
+Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site statique.
+Dans un site dynamique, le processus est différent, le fichier HTML n’existe pas encore. Il va être généré en fonction de paramètres que vous allez lui envoyer.
+Vous allez les lui envoyer soit de façon consciente, par exemple en remplissant un formulaire et en cliquant sur envoyer.  
+Ex :  un formulaire de demande de devis, vous allez donner la quantité de produits désirée, le type de produit désiré et puis le serveur va recevoir ces paramètres et va traiter la demande.
+Vous pouvez aussi le faire de façon inconsciente, c’est-à-dire en cliquant sur un lien. Ce lien a des paramètres qui se mettent dans l’url , le script a été fait pour comprendre ces paramètres,  et en fonction de ces paramètres il va créer un fichier HTML.
+
+
 
 <hr>
 ## MVC 
