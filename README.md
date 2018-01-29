@@ -161,7 +161,7 @@ La **clé primaire** est constituée par un attribut spécifique ou une combinai
 
 Chaque **ligne** comprend des données sur une **instance** spécifique de l'entité en question, comme un employé en particulier.
 
-Le modèle tient également compte des types de relations entre ces tables, notamment les relations **un-à-un** **1-1**, **un-à-plusieurs** **1-n** et **plusieurs-à-plusieurs** **n-n**.
+Le modèle tient également compte des types de relations entre ces tables, notamment les relations **un-à-un** **(1-1)**, **un-à-plusieurs** **(1-n)** et **plusieurs-à-plusieurs** **(n-n)**.
 
 <hr> 
 Plus d'informations sur la <a href="http://guides.rubyonrails.org/routing.html#crud-verbs-and-actions">documentation RUBY</a> 
