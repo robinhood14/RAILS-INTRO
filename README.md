@@ -164,7 +164,8 @@ Chaque **ligne** comprend des données sur une **instance** spécifique de l'ent
 Le modèle tient également compte des types de relations entre ces tables, notamment les relations **un-à-un** **1-1**, **un-à-plusieurs** **1-n** et **plusieurs-à-plusieurs** **n-n**.
 
 <hr> 
-Plus d'informations sur la <a href="http://guides.rubyonrails.org/routing.html#crud-verbs-and-actions">documentation</a> 
+Plus d'informations sur la <a href="http://guides.rubyonrails.org/routing.html#crud-verbs-and-actions">documentation RUBY</a> 
+
 <p align="center">
     <img src="https://i.imgur.com/C0LaM1h.jpg">
 </p>
