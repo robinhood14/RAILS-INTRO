@@ -9,7 +9,7 @@
  7. Les relations entre les models des BDD
  8. Les fonctions CRUD 
 
-### Ruby On Rails , c'est quoi ? 
+### :train:Ruby On Rails:train: , c'est quoi ? 
 <hr>
 
 Ruby On Rails, c'est un **framework** écrit en Ruby pour faire des sites/app web. 
@@ -26,7 +26,7 @@ c'est le meilleur design pattern pour le développement d'applications web. Il v
 
 ### Site statique ou site dynamique ?
 <hr>
- Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site **statique**. 
+ Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site statique.
 
 
 Dans un site **dynamique**, le processus est différent, le fichier HTML n’existe pas encore. Il va être généré en fonction de **paramètres** que vous allez lui envoyer.
@@ -120,7 +120,7 @@ Les migrations dans Rails nous permettent de **faire évoluer** le schema de not
 
 Une migration est donc une **sous-classe** de la classe ActiveRecord::Migration. A ce titre, elle définit **deux méthodes** : une méthode « up », qui permet d'ajouter une modification à la base de données, et une méthode« down », qui permet de retirer cette modification de la base de données. 
 
-*Anatomie d'une migration :
+*Anatomie d'une migration*
 
       class CreateContacts < ActiveRecord::Migration
         def self.up
