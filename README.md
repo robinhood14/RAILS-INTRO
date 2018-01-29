@@ -7,7 +7,7 @@
  5. GET / POST
  6. Le concept de migration
  7. Les fonctions CRUD
- 8. Les relations entre les models des BDD
+ 8. Les relations entre les modeles des BDD
 
 ### Ruby On Rails , c'est quoi ? 
 <hr>
