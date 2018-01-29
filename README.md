@@ -137,7 +137,7 @@ Une migration est donc une **sous-classe** de la classe ActiveRecord::Migration.
         end
       end
       
-*Cette migration ajoute une table « contacts », possédant deux colonnes « name » et « email » de type texte. La méthode « timestamps » quant à elle, ajoute des colonnes d'informations sur les dates de mises à jour des enregistrements. Nous détaillerons tout cela un peu plus tard.*
+###### *Cette migration ajoute une table « contacts », possédant deux colonnes « name » et « email » de type texte. La méthode « timestamps » quant à elle, ajoute des colonnes d'informations sur les dates de mises à jour des enregistrements. Nous détaillerons tout cela un peu plus tard.*
 
 ### Les fonctions du CRUD
 <hr>
