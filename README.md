@@ -43,8 +43,10 @@ Vous pouvez aussi le faire de façon inconsciente, c’est-à-dire en cliquant s
     
 **La vue** cette partie du code gère l'affichage.     
 La vue, c’est de la présentation. C’est comment on veut que la donnée soit présentée à l’utilisateur. Ça peut être le code qui pond du HTML et CSS, ou fait configurer de jolis boutons dans une UI par exemple.    
+
 **Le modèle** cette partie du code gère la manipulation des données.  
 Le modèle manipule la donnée. Dans un site Web, le modèle est souvent le code qui permet de faire de requêtes à la base de données.   
+
 **Le contrôleur** en gros , c'est tout le reste.     
 Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L’espèce de truc machin qu’on va mettre en place pour faire marcher le programme, c’est le contrôleur.  
 <p>
@@ -53,7 +55,14 @@ Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L�
 <img src= http://csharpcorner.mindcrackerinc.netdna-cdn.com/article/generate-a-controller-and-view-in-ruby-on-rails/Images/image001.jpg> 
 </p>
 
-
+1. L’utilisateur envoie une requête HTTP (via le navigateur) vers le server Rails
+2. Le rooter la transmet au Controller via la méthode indexe
+3. Le contrôleur appelle le modèle, celui-ci va récupérer les données concernant cette requete
+4. Le modèle consulte la base de données
+5. Le modèle retourne les données au contrôleur
+6. Le contrôleur décide de la vue à afficher et va l’appeler au sein du View
+7. Le code HTML de la vue est envoyé au controleur
+8. Le controlleur encoie la vue à afficher au navigateur
 
 ### Les routes 
 
@@ -65,30 +74,6 @@ resources :photos
 Il est possible d’en déclarer plusieurs de la façon suivante :
 resources :photos, :books, :videos
 
-Une route c' est un verbe qui représente la requette HTTP.
-
-Dans les contrôleurs, il existe sept routes très fréquemment utilisées :
->index, create, show, update, destroy, new, edit.
-
-On peu les ajouter manuellement dans le fichier config.rb ou  bien comme ceci : `resources :articles`
-En ligne de commande on peut afficher toutes les routes disponibles dans notre application comme ceci:
-`rails routes`
-
-`GET  /articles(.:format) articles#index`
-
-`POST  /articles(.:format) articles#create`
-
-`GET  /articles/new(.:format) articles#new`
-
-`GET  /articles/:id/edit(.:format) articles#edit`
-
-`GET  /articles/:id(.:format) articles#show`
-
-`PATCH  /articles/:id(.:format) articles#update`
-
-`PUT  /articles/:id(.:format) articles#update`
-
-`DELETE /articles/:id(.:format) articles#destroy`
 
 <a href="http://guides.rubyonrails.org/routing.html">Routing avec Rails DOC</a>
 <a href="https://openclassrooms.com/courses/continuez-avec-ruby-on-rails/simplifiez-la-configuration-de-vos-routes">OPC</a>
@@ -105,12 +90,14 @@ En ligne de commande on peut afficher toutes les routes disponibles dans notre a
 
 <p>Lorsque qu'un projet est créé , Rails créé pour nous un fichier de configuration de la base de données, qui se situe dans config/database.yml. </p>
 
-SQLite version 3.x
-gem install sqlite3-ruby (not necessary on OS X Leopard)
-development:
-adapter: sqlite3
-database: db/development.sqlite3
-pool: 5
-timeout: 5000
+### GET / POST
+<hr>
+
+**GET** : les données transiteront par l'URL. Cette méthode est assez peu utilisée car on ne peut pas envoyer beaucoup d'informations dans l'URL.
+
+**POST** : les données ne transiteront pas par l'URL, l'utilisateur ne les verra donc pas passer dans la barre d'adresse. Cette méthode permet d'envoyer autant de données que l'on veut, ce qui fait qu'on la privilégie le plus souvent. Néanmoins, il faudra toujours vérifier si tous les paramètres sont bien présents et valides. 
+<p align="center">
+    <img src="http://www.java8s.com/img/get.PNG" alt="get-vs-post">
+</p>
 
 [logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/200px-Ruby_On_Rails_Logo.svg.png "Ruby On Rails"
