@@ -26,9 +26,8 @@ c'est le meilleur design pattern pour le développement d'applications web. Il v
 
 ### Site statique ou site dynamique ?
 <hr>
- Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site **statique**.
-
-
+ Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site **statique** .
+ 
 Dans un site **dynamique**, le processus est différent, le fichier HTML n’existe pas encore. Il va être généré en fonction de **paramètres** que vous allez lui envoyer.
 Vous allez les lui envoyer soit de façon **consciente**, par exemple en remplissant un formulaire et en cliquant sur envoyer. 
     
