@@ -59,7 +59,7 @@ Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L�
 <img src= http://csharpcorner.mindcrackerinc.netdna-cdn.com/article/generate-a-controller-and-view-in-ruby-on-rails/Images/image001.jpg> 
 </p>
 
-**Parcours utilisateur :**
+Parcours utilisateur :
 
 1. L’utilisateur envoie une requête HTTP (via le navigateur) vers le server Rails
 2. Le rooter la transmet au Controller via la méthode indexe
@@ -71,6 +71,7 @@ Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L�
 8. Le controlleur envoie la vue à afficher au navigateur
 
 ### Les routes 
+<hr>
 
 Les routes permettent d’interpréter les URL et d’orienter vers les bonnes actions des controleurs. La configuration se trouve dans le fichier config/routes.rb .
 
@@ -87,12 +88,12 @@ Il est possible d’en déclarer plusieurs de la façon suivante :
 ### Les bases de données  
 <hr>
 
-<p>Pour stocker les données dans ton projet, tu dois utiliser une base de données; ça peut être MySQL, PostgreSQL, MongoDB, etc. Il est vrai que PHP est réputé pour fonctionner avec MySQL mais ce n'est pas le seul!</p>
+Pour stocker les données dans ton projet, tu dois utiliser une **base de données**; ça peut être MySQL, PostgreSQL, MongoDB, etc. Il est vrai que PHP est réputé pour fonctionner avec MySQL mais ce n'est pas le seul!
 
-<p>Ruby On Rails utilise un ORM, c'est en gros un système qui transforme les tables de ta base de donnée en version orienté objet... pour faire simple, tu apprends une nouvelle façon de manipuler ta base de donnée. </p>
+Ruby On Rails utilise un ORM, c'est en gros un système qui transforme les tables de ta base de donnée en version orienté objet... pour faire simple, tu apprends une nouvelle façon de manipuler ta base de donnée. 
 
 
-<p>Pour Rails, c'est Active Record L'intérêt, ce n'est pas de te compliquer la vie à apprendre un nouveau langage, que du contraire. En utilisant Active Record, Rails va traduire ton code pour que les requêtes se fassent sur ta base de donnée. Peu importe la syntaxe de ta base de donnée, le code sera le même, du code Ruby. C'est très pratique si tu veux changer de système de DB pendant ton projet.</p>
+Pour Rails, c'est Active Record L'intérêt, ce n'est pas de te compliquer la vie à apprendre un nouveau langage, que du contraire. En utilisant Active Record, Rails va traduire ton code pour que les requêtes se fassent sur ta base de donnée. Peu importe la syntaxe de ta base de donnée, le code sera le même, du code Ruby. C'est très pratique si tu veux changer de système de DB pendant ton projet.
 
 <p align="center">
     <img src="http://www.ennder.fr/Documents/devs/support_de_cours_rails/images/orm.jpeg">
