@@ -1,11 +1,13 @@
+# Découvrez Ruby on Rails ![alt text][logo]
+
 ### Ruby On Rails , c'est quoi ? 
 Ruby On Rails, c'est un framework écrit en Ruby pour faire des sites/app web. 
 3 grand principes : 
-Le DRY (Don't Repeat Yourself) : 
+- Le DRY (Don't Repeat Yourself) : 
 Rails encourage à ne pas écrire plusieurs fois le même code. Rendre réutilisable le code de vos applications est une bonne chose !
-Convention over configuration: 
+- Convention over configuration: 
 Rails se base uniquement sur des conventions, non sur de la configuration (à l'inverse d'autres langages comme Java par exemple). Si vous respectez ces principes de convention, vous rendrez votre code maintenable et vous gagnerez en productivité.
-REST : 
+- REST : 
 c'est le meilleur design pattern pour le développement d'applications web. Il vous permet d'organiser vos applications autour de verbes HTTP standards.
 ### Site statique ou site dynamique ?
 <hr>
@@ -22,6 +24,7 @@ Vous pouvez aussi le faire de façon inconsciente, c’est-à-dire en cliquant s
 <p align="center">
     <img src=" https://www.google.fr/search?biw=1012&bih=615&tbm=isch&sa=1&ei=mkRvWsrvGpKkwAK4_Za4Dw&q=diff%C3%A9rence+between+a+static+website+and+a+dynamic+website&oq=diff%C3%A9rence+between+a+static+website+and+a+dynamic+website&gs_l=psy-ab.3...31093.45863.0.46729.47.46.0.0.0.0.326.5104.16j15j4j2.37.0....0...1c.1.64.psy-ab..10.2.266...0j0i8i30k1j0i24k1.0.-vD_-Ym5FLQ#imgrc=zYdeDh1i4IdvbM:">
 </p>
+
 ### Le MVC
 <hr>
 <p> Plutot abstrait à définir concretement, le MVC est un principe d’organisation de code basé sur la répartition suivante : 
@@ -36,8 +39,9 @@ Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L�
 <p>
 
 <p align="center">
-<img src= http://csharpcorner.mindcrackerinc.netdna-cdn.com/article/generate-a-controller-and-view-in-ruby-on-rails/Images/image001.jpg target="_blank"> 
+<img src= http://csharpcorner.mindcrackerinc.netdna-cdn.com/article/generate-a-controller-and-view-in-ruby-on-rails/Images/image001.jpg> 
 </p>
+
 
 
 
