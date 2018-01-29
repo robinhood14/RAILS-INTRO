@@ -9,7 +9,7 @@
  7. Les fonctions CRUD
  8. Les relations entre les models des BDD
 
-### Ruby On Rails , c'est quoi ? 
+### align="center">Ruby On Rails , c'est quoi ? 
 <hr>
 
 Ruby On Rails, c'est un **framework** écrit en Ruby pour faire des sites/app web. 
