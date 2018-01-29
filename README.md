@@ -79,7 +79,7 @@ Il est possible d’en déclarer plusieurs de la façon suivante :
 
     1-resources :photos, :books, :videos
 
-<a href="https://www.sois-net.fr/routes-ruby-on-rails/"</a>
+<a href="https://www.sois-net.fr/routes-ruby-on-rails/">
 
 ### Les bases de données  
 <hr>
@@ -97,8 +97,8 @@ Il est possible d’en déclarer plusieurs de la façon suivante :
 
 <p>Lorsque qu'un projet est créé , Rails créé pour nous un fichier de configuration de la base de données, qui se situe dans config/database.yml. </p>
 
-<a href="http://v-dubois.developpez.com/ruby-on-rails/introduction/"</a>
-
+<a href="http://v-dubois.developpez.com/ruby-on-rails/introduction/" >
+    
 ### GET / POST
 <hr>
 
