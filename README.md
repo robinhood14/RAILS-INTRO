@@ -30,14 +30,14 @@ Vous pouvez aussi le faire de façon inconsciente, c’est-à-dire en cliquant s
 
 ### Le MVC
 
-<p> Plutot abstrait à définir concretement, le MVC est un principe d’organisation de code basé sur la répartition suivante : 
-
-**La vue** cette partie du code gère l'affichage. 
+<p> Plutot abstrait à définir concretement, le MVC est un principe d’organisation de code basé sur la répartition suivante : <p>
+    
+**La vue** cette partie du code gère l'affichage.  
 La vue, c’est de la présentation. C’est comment on veut que la donnée soit présentée à l’utilisateur. Ça peut être le code qui pond du HTML et CSS, ou fait configurer de jolis boutons dans une UI par exemple.
-**Le modèle** cette partie du code gère la manipulation des données.
+**Le modèle** cette partie du code gère la manipulation des données.  
 Le modèle manipule la donnée. Dans un site Web, le modèle est souvent le code qui permet de faire de requêtes à la base de données. 
-**Le contrôleur** en gros , c'est tout le reste. 
-Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L’espèce de truc machin qu’on va mettre en place pour faire marcher le programme, c’est le contrôleur.
+**Le contrôleur** en gros , c'est tout le reste.   
+Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L’espèce de truc machin qu’on va mettre en place pour faire marcher le programme, c’est le contrôleur.  
 <a href="https://www.supinfo.com/articles/single/1625-mvc-presentation-patron-conception" target="_blank">Source</a>
 <p>
 
