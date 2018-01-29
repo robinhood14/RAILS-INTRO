@@ -36,7 +36,7 @@ Vous allez les lui envoyer soit de façon **consciente**, par exemple en remplis
 
 Vous pouvez aussi le faire de façon **inconsciente**, c’est-à-dire en **cliquant** sur un lien. Ce lien a des paramètres qui se mettent dans l’url , le script a été fait pour comprendre ces paramètres,  et en fonction de ces **paramètres** il va créer un fichier HTML.
 
-<a href="https://business-antidote.com/difference-entre-site-statique-et-site-dynamique/">
+<a href="https://business-antidote.com/difference-entre-site-statique-et-site-dynamique/">SOURCE</a>
 
 <p align="center">
     <img src="https://www.pluralsight.com/content/pluralsight/en/blog/creative-professional/sta/static-dynamic-websites-theres-difference/_jcr_content/main/hero_blog_block/image-res.img.jpg/1446605940972.jpg" target="_blank">
