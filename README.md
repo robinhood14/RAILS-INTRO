@@ -30,12 +30,12 @@ c'est le meilleur design pattern pour le développement d'applications web. Il v
 - Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site statique.
 
 
-- Dans un site **dynamique**, le processus est différent, le fichier HTML n’existe pas encore. Il va être généré en fonction de **paramètres** que vous allez lui envoyer.
+- Dans un site **dynamique**, le processus est différent, le fichier HTML n’existe pas encore. Il va être généré en fonction de **paramètres** que vous allez lui envoyer.  
 Vous allez les lui envoyer soit de façon **consciente**, par exemple en remplissant un formulaire et en cliquant sur envoyer. 
     
 ###### *Ex :  un formulaire de demande de devis, vous allez donner la quantité de produits désirée, le type de produit désiré et puis le serveur va recevoir ces paramètres et va traiter la demande.*
 
-Vous pouvez aussi le faire de façon **inconsciente**, c’est-à-dire en **cliquant** sur un lien. Ce lien a des paramètres qui se mettent dans l’url , le script a été fait pour comprendre ces paramètres,  et en fonction de ces **paramètres** il va créer un fichier HTML.
+Vous pouvez aussi le faire de façon **inconsciente**, c’est-à-dire en **cliquant** sur un lien. Ce lien a des paramètres     qui se mettent dans l’url , le script a été fait pour comprendre ces paramètres,  et en fonction de ces **paramètres** il va créer un fichier HTML.
 
 <a href="https://business-antidote.com/difference-entre-site-statique-et-site-dynamique/">SOURCE</a>
 
