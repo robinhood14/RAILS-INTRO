@@ -40,7 +40,7 @@ Vous pouvez aussi le faire de façon **inconsciente**, c’est-à-dire en **cliq
 <p align="center">
     <img src="https://www.pluralsight.com/content/pluralsight/en/blog/creative-professional/sta/static-dynamic-websites-theres-difference/_jcr_content/main/hero_blog_block/image-res.img.jpg/1446605940972.jpg" target="_blank">
 </p>
-
+<a href="https://business-antidote.com/difference-entre-site-statique-et-site-dynamique/">
 
 ### Le MVC
 <hr>
