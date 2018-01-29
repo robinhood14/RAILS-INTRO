@@ -156,5 +156,8 @@ Le modèle le plus courant, appelé modèle relationnel, trie les données dans 
 Chaque ligne, également appelée tuple, comprend des données sur une instance spécifique de l'entité en question, comme un employé en particulier.
 Le modèle tient également compte des types de relations entre ces tables, notamment les relations un-à-un, un-à-plusieurs et plusieurs-à-plusieurs.
 
+<p align="center">
+    <img src="https://i.imgur.com/C0LaM1h.jpg">
+</p>
 
 [logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/200px-Ruby_On_Rails_Logo.svg.png "Ruby On Rails"
