@@ -135,10 +135,6 @@ Une migration est donc une sous-classe de la classe ActiveRecord::Migration. A c
       
 *Cette migration ajoute une table « contacts », possédant deux colonnes « name » et « email » de type texte. La méthode « timestamps » quant à elle, ajoute des colonnes d'informations sur les dates de mises à jour des enregistrements. Nous détaillerons tout cela un peu plus tard.*
 
-<p align="center">
-    <img src="https://leanpub.com/site_images/rails3dot0-astudentmanual/db-cheatsheet.png" alt="db-cheatsheet" traget="_blank">
-</p>
-
 
 
 
