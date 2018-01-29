@@ -157,4 +157,4 @@ Chaque ligne, également appelée tuple, comprend des données sur une instance 
 Le modèle tient également compte des types de relations entre ces tables, notamment les relations un-à-un, un-à-plusieurs et plusieurs-à-plusieurs.
 
 
-[logo]: https://www.aistechnolabs.com/wp-content/uploads/2016/07/ruby-on-rails-development-e1480579728677.png "Ruby On Rails"
+[logo]: https://sdtimes.com/wp-content/uploads/2016/07/0701.sdt-rails.jpg"Ruby On Rails"
