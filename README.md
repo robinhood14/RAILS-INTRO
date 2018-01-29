@@ -26,14 +26,15 @@ c'est le meilleur design pattern pour le développement d'applications web. Il v
 
 ### Site statique ou site dynamique ?
 <hr>
-<p> Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site statique.</p>
+ Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site **statique**.
 
 
-<p> Dans un site dynamique, le processus est différent, le fichier HTML n’existe pas encore. Il va être généré en fonction de paramètres que vous allez lui envoyer.
-Vous allez les lui envoyer soit de façon consciente, par exemple en remplissant un formulaire et en cliquant sur envoyer.</p> 
+Dans un site **dynamique**, le processus est différent, le fichier HTML n’existe pas encore. Il va être généré en fonction de **paramètres** que vous allez lui envoyer.
+Vous allez les lui envoyer soit de façon **consciente**, par exemple en remplissant un formulaire et en cliquant sur envoyer. 
     
-*Ex :  un formulaire de demande de devis, vous allez donner la quantité de produits désirée, le type de produit désiré et puis le serveur va recevoir ces paramètres et va traiter la demande.
-Vous pouvez aussi le faire de façon inconsciente, c’est-à-dire en cliquant sur un lien. Ce lien a des paramètres qui se mettent dans l’url , le script a été fait pour comprendre ces paramètres,  et en fonction de ces paramètres il va créer un fichier HTML.*
+###### *Ex :  un formulaire de demande de devis, vous allez donner la quantité de produits désirée, le type de produit désiré et puis le serveur va recevoir ces paramètres et va traiter la demande.*
+
+Vous pouvez aussi le faire de façon **inconsciente**, c’est-à-dire en **cliquant** sur un lien. Ce lien a des paramètres qui se mettent dans l’url , le script a été fait pour comprendre ces paramètres,  et en fonction de ces **paramètres** il va créer un fichier HTML.
 
 
 <p align="center">
@@ -52,7 +53,7 @@ La vue, c’est de la **présentation**. C’est comment on veut que la donnée 
 Le modèle manipule la donnée. Dans un site Web, le modèle est souvent le code qui permet de faire de requêtes à la base de données.   
 
 **Le contrôleur** en gros , c'est tout le **reste**.     
-Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L’espèce de truc machin qu’on va mettre en place pour faire marcher le programme, c’est le contrôleur.  
+Il fait le **lien** ente le modele et la vue et renvoie la page a l'utilisateur. L’espèce de truc machin qu’on va mettre en place pour faire marcher le programme, c’est le contrôleur.  
 <p>
 
 <p align="center">
@@ -73,7 +74,7 @@ Parcours utilisateur :
 ### Les routes 
 <hr>
 
-Les routes permettent d’interpréter les URL et d’orienter vers les bonnes actions des controleurs. La configuration se trouve dans le fichier config/routes.rb .
+Les routes permettent d’**interpréter les URL** et d’**orienter** vers les bonnes actions des controleurs. La configuration se trouve dans le fichier **config/routes.rb** .
 
 La configuration par défaut se fait par la ligne :
 
@@ -90,10 +91,10 @@ Il est possible d’en déclarer plusieurs de la façon suivante :
 
 Pour stocker les données dans ton projet, tu dois utiliser une **base de données**; ça peut être MySQL, PostgreSQL, MongoDB, etc. Il est vrai que PHP est réputé pour fonctionner avec MySQL mais ce n'est pas le seul!
 
-Ruby On Rails utilise un ORM, c'est en gros un système qui transforme les tables de ta base de donnée en version orienté objet... pour faire simple, tu apprends une nouvelle façon de manipuler ta base de donnée. 
+Ruby On Rails utilise un **ORM**, c'est en gros un **système** qui transforme les **tables** de ta base de donnée en **version orienté objet**... pour faire simple, tu apprends une nouvelle façon de manipuler ta base de donnée. 
 
 
-Pour Rails, c'est Active Record L'intérêt, ce n'est pas de te compliquer la vie à apprendre un nouveau langage, que du contraire. En utilisant Active Record, Rails va traduire ton code pour que les requêtes se fassent sur ta base de donnée. Peu importe la syntaxe de ta base de donnée, le code sera le même, du code Ruby. C'est très pratique si tu veux changer de système de DB pendant ton projet.
+Pour Rails, c'est **Active Record** .En utilisant Active Record, Rails va **traduire** ton code pour que les requêtes se fassent sur ta **base de donnée**. Peu importe la syntaxe de ta base de donnée, le code sera le même, du code Ruby. C'est très pratique si tu veux changer de système de DB pendant ton projet.
 
 <p align="center">
     <img src="http://www.ennder.fr/Documents/devs/support_de_cours_rails/images/orm.jpeg">
@@ -108,17 +109,16 @@ Pour Rails, c'est Active Record L'intérêt, ce n'est pas de te compliquer la 
 
 **GET** : les données transiteront par l'URL. Cette méthode est assez peu utilisée car on ne peut pas envoyer beaucoup d'informations dans l'URL.
 
-**POST** : les données ne transiteront pas par l'URL, l'utilisateur ne les verra donc pas passer dans la barre d'adresse. Cette méthode permet d'envoyer autant de données que l'on veut, ce qui fait qu'on la privilégie le plus souvent. Néanmoins, il faudra toujours vérifier si tous les paramètres sont bien présents et valides. 
+**POST** : les données ne transiteront pas par l'URL, l'utilisateur ne les verra donc **pas passer** dans la barre d'adresse. Cette méthode permet d'**envoyer autant** de données que l'on veut, ce qui fait qu'on la privilégie le plus souvent. Néanmoins, il faudra toujours vérifier si tous les paramètres sont bien présents et valides. 
 <p align="center">
     <img src="http://media.tumblr.com/tumblr_m6gb8lux6E1r731lp.png">
 </p>
 
 ### Le concept de migration
 <hr>
-Les migrations dans Rails nous permettent de faire évoluer le schema de notre base de donnée facilement, sans faire de SQL. 
-On écrit une migration et celle-ci update notre bdd.
+Les migrations dans Rails nous permettent de **faire évoluer** le schema de notre base de donnée facilement, sans faire de SQL. On écrit une migration et celle-ci update notre bdd.
 
-Une migration est donc une sous-classe de la classe ActiveRecord::Migration. A ce titre, elle définit deux méthodes : une méthode « up », qui permet d'ajouter une modification à la base de données, et une méthode« down », qui permet de retirer cette modification de la base de données. 
+Une migration est donc une **sous-classe** de la classe ActiveRecord::Migration. A ce titre, elle définit **deux méthodes** : une méthode « up », qui permet d'ajouter une modification à la base de données, et une méthode« down », qui permet de retirer cette modification de la base de données. 
 
 *Anatomie d'une migration :
 
