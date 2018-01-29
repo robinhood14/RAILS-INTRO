@@ -1,4 +1,4 @@
-# Découvrez Ruby on Rails ![alt text][logo]
+# Découvrez :train:Ruby on Rails:train: ![alt text][logo]
 
  1. La différence entre un site statique et un site dynamique
  2. Le MVC
@@ -6,10 +6,10 @@
  4. Les Bases de Données
  5. GET / POST
  6. Le concept de migration
- 7. Les relations entre les models des BDD
- 8. Les fonctions CRUD 
+ 7. Les fonctions CRUD
+ 8. Les relations entre les models des BDD
 
-### :train:Ruby On Rails:train: , c'est quoi ? 
+### Ruby On Rails , c'est quoi ? 
 <hr>
 
 Ruby On Rails, c'est un **framework** écrit en Ruby pour faire des sites/app web. 
@@ -149,7 +149,12 @@ Nous allons maintenant découvrir le fonctionnement du **CRUD**. Ce terme permet
 - **U**pdate, permet de mettre à jour un enregistrement, PUT: /{resources}/:id
 - **D**estroy, permet de supprimer un enregistrement, DELETE: /{resources}/:id
 
+### Les relations entre les models des BDD
+<hr>
+
+Le modèle le plus courant, appelé modèle relationnel, trie les données dans des tables, que l'on appelle aussi des relations, dont chacune se compose de colonnes et de lignes. Chaque colonne contient un attribut de l'entité en question, comme le prix, le code postal ou la date de naissance. L'ensemble des attributs d'une relation est appelé domaine. La clé primaire est constituée par un attribut spécifique ou une combinaison d'attributs. On peut y faire référence dans d'autres tables : elle est alors appelée clé étrangère.
+Chaque ligne, également appelée tuple, comprend des données sur une instance spécifique de l'entité en question, comme un employé en particulier.
+Le modèle tient également compte des types de relations entre ces tables, notamment les relations un-à-un, un-à-plusieurs et plusieurs-à-plusieurs.
 
 
-
-[logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/200px-Ruby_On_Rails_Logo.svg.png "Ruby On Rails"
+[logo]: https://www.aistechnolabs.com/wp-content/uploads/2016/07/ruby-on-rails-development-e1480579728677.png "Ruby On Rails"
