@@ -55,6 +55,8 @@ Il fait le lien ente le modele et la vue et renvoie la page a l'utilisateur. L�
 <img src= http://csharpcorner.mindcrackerinc.netdna-cdn.com/article/generate-a-controller-and-view-in-ruby-on-rails/Images/image001.jpg> 
 </p>
 
+Parcours utilisateur : 
+
 1. L’utilisateur envoie une requête HTTP (via le navigateur) vers le server Rails
 2. Le rooter la transmet au Controller via la méthode indexe
 3. Le contrôleur appelle le modèle, celui-ci va récupérer les données concernant cette requete
@@ -76,7 +78,7 @@ Il est possible d’en déclarer plusieurs de la façon suivante :
 
     1-resources :photos, :books, :videos
 
-
+<a href="http://v-dubois.developpez.com/ruby-on-rails/introduction/"</a>
 
 ### Les bases de données  
 <hr>
@@ -96,7 +98,18 @@ Il est possible d’en déclarer plusieurs de la façon suivante :
 
 **POST** : les données ne transiteront pas par l'URL, l'utilisateur ne les verra donc pas passer dans la barre d'adresse. Cette méthode permet d'envoyer autant de données que l'on veut, ce qui fait qu'on la privilégie le plus souvent. Néanmoins, il faudra toujours vérifier si tous les paramètres sont bien présents et valides. 
 <p align="center">
-    <img src="http://www.java8s.com/img/get.PNG" alt="get-vs-post">
+    <img src="http://media.tumblr.com/tumblr_m6gb8lux6E1r731lp.png">
 </p>
+
+### Le concept de migration
+<hr>
+Les migrations dans Rails nous permettent de faire évoluer le schema de notre base de donnée facilement, sans faire de SQL. 
+On écrit une migration et celle-ci update notre bdd.
+<p align="center">
+    <img src="https://leanpub.com/site_images/rails3dot0-astudentmanual/db-cheatsheet.png" alt="db-cheatsheet" traget="_blank">
+</p>
+
+
+
 
 [logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/200px-Ruby_On_Rails_Logo.svg.png "Ruby On Rails"
