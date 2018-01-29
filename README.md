@@ -1,6 +1,6 @@
 # Découvrez Ruby on Rails ![alt text][logo]
 
-### Ruby On Rails , c'est quoi ? 
+#### Ruby On Rails , c'est quoi ? 
 Ruby On Rails, c'est un framework écrit en Ruby pour faire des sites/app web. 
 3 grand principes : 
 - Le DRY (Don't Repeat Yourself) : 
