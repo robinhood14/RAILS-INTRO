@@ -10,7 +10,7 @@ Rails se base uniquement sur des conventions, non sur de la configuration (à l'
 - REST : 
 c'est le meilleur design pattern pour le développement d'applications web. Il vous permet d'organiser vos applications autour de verbes HTTP standards.
 
-<hr>
+
 ### Site statique ou site dynamique ?
 
 Lorsque vous tapez dans la barre d’adresse ou que vous cliquez sur un lien, vous demandez en fait à un serveur de vous afficher un document HTML qui est stocké à un endroit précis sur ce serveur. Le serveur obéit et vous renvoie ce fameux document que vous lui avez demandé. Il s'agit d'un site statique.
@@ -27,7 +27,7 @@ Vous pouvez aussi le faire de façon inconsciente, c’est-à-dire en cliquant s
     <img src=" https://www.pluralsight.com/content/pluralsight/en/blog/creative-professional/sta/static-dynamic-websites-theres-difference/_jcr_content/main/hero_blog_block/image-res.img.jpg/1446605940972.jpg">
 </p>
 
-<hr>
+
 ### Le MVC
 
 <p> Plutot abstrait à définir concretement, le MVC est un principe d’organisation de code basé sur la répartition suivante : 
