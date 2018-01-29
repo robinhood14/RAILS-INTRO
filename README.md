@@ -85,7 +85,7 @@ Il est possible d’en déclarer plusieurs de la façon suivante :
 
     1-resources :photos, :books, :videos
 
-<a href="https://www.sois-net.fr/routes-ruby-on-rails/">
+<a href="https://www.sois-net.fr/routes-ruby-on-rails/">SOURCE </a>
 
 ### Les bases de données  
 <hr>
@@ -103,7 +103,7 @@ Pour Rails, c'est **Active Record** .En utilisant Active Record, Rails va **tr
 
 <p>Lorsque qu'un projet est créé , Rails créé pour nous un fichier de configuration de la base de données, qui se situe dans config/database.yml. </p>
 
-<a href="http://v-dubois.developpez.com/ruby-on-rails/introduction/" >
+<a href="http://v-dubois.developpez.com/ruby-on-rails/introduction/">SOURCE </a>
     
 ### GET / POST
 <hr>
@@ -150,6 +150,8 @@ Nous allons maintenant découvrir le fonctionnement du **CRUD**. Ce terme permet
 - **U**pdate, permet de mettre à jour un enregistrement, PUT: /{resources}/:id
 - **D**estroy, permet de supprimer un enregistrement, DELETE: /{resources}/:id
 
+<a href="https://www.grafikart.fr/formations/ruby-on-rails/crud">SOURCE </a>
+
 ### Les relations entre les models des BDD
 <hr>
 
@@ -161,6 +163,8 @@ Chaque **ligne** comprend des données sur une **instance** spécifique de l'ent
 
 Le modèle tient également compte des types de relations entre ces tables, notamment les relations **un-à-un** **1-1**, **un-à-plusieurs** **1-n** et **plusieurs-à-plusieurs** **n-n**.
 
+<hr> 
+Plus d'informations sur la <a href="http://guides.rubyonrails.org/routing.html#crud-verbs-and-actions">documentation</a> 
 <p align="center">
     <img src="https://i.imgur.com/C0LaM1h.jpg">
 </p>
