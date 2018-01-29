@@ -1,12 +1,12 @@
 # Découvrez Ruby on Rails ![alt text][logo]
 
-1. La différence entre un site statique et un site dynamique
-2. Le MVC
-3. Les routes
-4. Les Bases de Données
-5. GET / POST
-6. Le concept de migration
-7. Les relations entre les models des BDD
+###### 1. La différence entre un site statique et un site dynamique
+###### 2. Le MVC
+###### 3. Les routes
+###### 4. Les Bases de Données
+###### 5. GET / POST
+###### 6. Le concept de migration
+###### 7. Les relations entre les models des BDD
 
 ### Ruby On Rails , c'est quoi ? 
 <hr>
@@ -116,7 +116,7 @@ On écrit une migration et celle-ci update notre bdd.
 
 Une migration est donc une sous-classe de la classe ActiveRecord::Migration. A ce titre, elle définit deux méthodes : une méthode « up », qui permet d'ajouter une modification à la base de données, et une méthode« down », qui permet de retirer cette modification de la base de données. 
 
-*Anatomie d'une migration : *
+*Anatomie d'une migration :
 
       class CreateContacts < ActiveRecord::Migration
         def self.up
